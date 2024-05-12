@@ -30,6 +30,9 @@
 #welcome h2{
     color: #fff;
 }
+#welcome h4{
+    color: #fff;
+}
 #welcome p{
     color: #fff;
 }
@@ -44,24 +47,24 @@
 #welcome img{
     width: 100%;
 }
-#project{
+#sertifikat{
     padding-top: 70px;
     padding-bottom: 70px;
 }
-#project h2{
+#sertifikat h2{
     text-align: center;
     color: #000000;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-#project .card{
+#sertifikat .card{
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#project .col-md-4{
+#sertifikat .col-md-4{
     margin-bottom: 30px;
 }
-#project .card-img-top {
+#sertifikat .card-img-top {
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -93,3 +96,20 @@
     transition: transform 0.3s ease;
 }
 
+#projects {
+    text-align: center;
+}
+#projects h2 {
+    margin-bottom: 30px; /* Adjust as needed */
+}
+
+    /* Tambahkan jarak antara bagian Projects dan Certifications */
+    #projects {
+        margin-bottom: 50px;
+    }
+    /* Berikan tampilan yang berbeda untuk setiap bagian */
+    #projects, #sertifikat {
+        background-color: #f9f9f9;
+        padding: 50px 0;
+    }
+    
