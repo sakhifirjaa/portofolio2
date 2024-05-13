@@ -153,7 +153,7 @@
 
 .progress-bar {
     background-color: #3498db;
-    animation: progressAnimation 2s ease-out forwards;
+    animation: progressAnimation 6s ease-out forwards;
 }
 
 @keyframes progressAnimation {
