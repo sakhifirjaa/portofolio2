@@ -104,12 +104,45 @@
 }
 
     /* Tambahkan jarak antara bagian Projects dan Certifications */
-    #projects {
+ #projects {
         margin-bottom: 50px;
     }
     /* Berikan tampilan yang berbeda untuk setiap bagian */
-    #projects, #sertifikat {
+     #projects, #sertifikat {
         background-color: #f9f9f9;
         padding: 50px 0;
     }
+
+    #contact {
+        background-color: #032b43; /* Sesuaikan dengan warna latar belakang yang diinginkan */
+        padding-top: 60px; /* Sesuaikan dengan jarak atas yang diinginkan */
+        padding-bottom: 60px; /* Sesuaikan dengan jarak bawah yang diinginkan */
+    }
+    
+    .contact-item {
+        margin-bottom: 15px;
+    }
+    
+    .contact-icon {
+        margin-right: 10px;
+        color: #007bff; /* Sesuaikan dengan warna ikon yang diinginkan */
+    }
+    
+    .contact-link {
+        color: #343a40; /* Sesuaikan dengan warna tautan yang diinginkan */
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    
+    .contact-link:hover {
+        color: #007bff; /* Sesuaikan dengan warna tautan saat dihover yang diinginkan */
+    }
+    
+    .contact-address {
+        font-style: italic;
+        color: #6c757d; /* Sesuaikan dengan warna teks alamat yang diinginkan */
+        margin-top: 30px; /* Sesuaikan dengan jarak atas alamat yang diinginkan */
+    }
+        
+    
     
